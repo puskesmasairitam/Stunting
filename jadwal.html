@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Posyandu dan Imunisasi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+          background-color: #126412;
+          color: white;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 10px 20px;
+          flex-wrap: wrap;
+        }
+        .logo {
+          display: flex;
+          align-items: center;
+          flex-shrink: 0;
+        }
+        .logo img {
+          height: 40px;
+          margin-right: 10px;
+        }
+        .logo h1 {
+          font-size: 1.2em;
+          margin: 0;
+        }
+        nav {
+          overflow-x: auto;
+          white-space: nowrap;
+          width: 100%;
+          margin-top: 10px;
+        }
+        nav ul {
+          display: flex;
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          flex-wrap: nowrap;
+          justify-content: center;
+        }
+        nav ul li {
+          margin: 0 10px;
+          white-space: nowrap;
+        }
+        nav ul li a {
+          color: white;
+          text-decoration: none;
+          font-weight: bold;
+          font-size: 0.95em;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        .container img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        h2 {
+            margin-top: 30px;
+            color: #2E7D32;
+        }
+
+        p {
+            line-height: 1.6;
+        }
+        .info-card {
+            background-color: #f0fff0;
+            border-left: 5px solid #4CAF50;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            margin-top: 30px;
+            animation: fadeInUp 0.6s ease;
+        }
+
+        .info-card h2 {
+            color: #126412;
+            font-size: 1.5em;
+            margin-top: 0;
+        }
+
+        .info-card ul {
+            padding-left: 20px;
+        }
+
+        .info-card ul li {
+            margin-bottom: 10px;
+            list-style: none;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        .info-card ul li::before {
+            content: "✔";
+            color: #4CAF50;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        footer {
+            background-color: #126412;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <img src="images-removebg-preview (4).png" alt="Logo UPTD Puskesmas" />
+          <h1>Stunting.Ai</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="stuntinggg.html">Tentang Stunting</a></li>
+            <li><a href="faqkontak.html">FAQ & Kontak</a></li>
+        </nav>
+    </header>
+
+    <div class="container">
+        <img src="jadwalposyandu.jpg" alt="Jadwal Posyandu dan Imunisasi">
+    
+        <div class="info-card">
+            <h2>Apa Saja Kegiatan di Posyandu?</h2>
+            <p>
+                Posyandu adalah pusat pelayanan kesehatan terpadu yang dikelola oleh masyarakat dan dibina oleh petugas kesehatan. 
+                Melalui Posyandu, masyarakat terutama ibu dan anak dapat memperoleh berbagai layanan dasar secara mudah dan berkala. 
+                Berikut kegiatan utamanya:
+            </p>
+            <ul>
+                <li>Penimbangan berat badan dan pengukuran tinggi anak</li>
+                <li>Pemberian imunisasi rutin sesuai usia</li>
+                <li>Distribusi vitamin A dan makanan tambahan</li>
+                <li>Penyuluhan gizi, sanitasi, dan pola asuh anak</li>
+                <li>Pemeriksaan kehamilan dan konsultasi kesehatan keluarga</li>
+            </ul>
+            <p>
+                Dengan rutin hadir di Posyandu, keluarga bisa memantau tumbuh kembang anak, mendeteksi dini masalah kesehatan, dan menerima edukasi penting untuk kesejahteraan bersama.
+            </p>
+        </div>
+    </div>    
+
+    <footer>
+        &copy; 2025 Posyandu - Puskesmas Air Itam
+    </footer>
+
+</body>
+</html>
